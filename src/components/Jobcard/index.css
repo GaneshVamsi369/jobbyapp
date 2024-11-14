@@ -1,0 +1,47 @@
+.jobitem {
+  width: 90%;
+  background-color: #272727;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 18px;
+}
+.companydetails {
+  display: flex;
+  align-items: center;
+}
+.companttitle {
+  display: flex;
+  flex-direction: column;
+}
+.ratingdetails {
+  display: flex;
+  align-items: center;
+}
+.companydetails img {
+  height: 50px;
+  margin-right: 13px;
+}
+.companttitle p,
+h3 {
+  margin: 0px;
+}
+.star {
+  color: #fbbf24;
+}
+.packagecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.package {
+  display: flex;
+}
+.addition {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.type {
+  margin-left: 5px;
+  font-weight: normal;
+}

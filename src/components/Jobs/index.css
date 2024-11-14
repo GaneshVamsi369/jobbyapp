@@ -1,0 +1,92 @@
+.jobbg {
+  background-color: #000;
+  min-height: 100vh;
+  max-height: 100%;
+  color: #fff;
+}
+.jobbody {
+  padding: 20px 50px;
+  display: flex;
+}
+.sidebar {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.profilecontainer {
+  height: 300px;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.failcall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.line {
+  border: 1px solid #fff;
+  width: 100%;
+  margin: 20px 0px;
+}
+.employeetitle {
+  font-size: 18px;
+}
+.filters-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.searchbar {
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: 450px;
+}
+.searchbar input {
+  padding: 5px;
+  height: 30px;
+  width: 400px;
+  border: 0px;
+  background: transparent;
+  color: #64748b;
+  outline: none;
+}
+.search-button {
+  background-color: #272727;
+  border: 0px;
+  color: #fff;
+  width: 50px;
+  height: 30px;
+}
+.joblist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.mainbody {
+  width: 100%;
+}
+.listfail {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nojobs {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

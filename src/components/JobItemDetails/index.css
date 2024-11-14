@@ -1,0 +1,54 @@
+.descriptioncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.detailscontainer {
+  background-color: #272727;
+  padding: 18px;
+  border-radius: 10px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.skills li {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 20px;
+}
+.skills li img {
+  height: 40px;
+  margin-right: 10px;
+}
+.descriptioncont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lifecontainer {
+  display: flex;
+}
+.lifecontainer p {
+  width: 70%;
+  padding-right: 30px;
+}
+.lifecontainer img {
+  width: 40%;
+  height: 250px;
+}
+.failcall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.similartitle {
+  margin-left: 50px;
+}
+.package {
+  list-style-type: none;
+}

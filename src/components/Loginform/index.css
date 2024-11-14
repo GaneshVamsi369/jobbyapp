@@ -1,0 +1,49 @@
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  height: 100vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff;
+  background-color: #272727;
+  width: 25%;
+}
+.logo {
+  height: 40px;
+  margin: 20px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.label input {
+  width: 350px;
+  background-color: transparent;
+  border: 1px solid #f1f5f9;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 8px 0px;
+  color: #fff;
+}
+.loginbtn {
+  border: 0px;
+  margin-top: 20px;
+  width: 350px;
+  color: #fff;
+  background-color: #6366f1;
+  padding: 5px;
+  border-radius: 5px;
+}
+.errormsg {
+  color: #ff0b37;
+  align-self: flex-start;
+}
